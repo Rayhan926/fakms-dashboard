@@ -13,10 +13,10 @@ const MobileSidebar = () => {
   return (
     <div className="lg:hidden">
       <button
-        className="w-8 h-8 shrink-0 rounded-full bg-slate-100 flex justify-center items-center"
+        className="w-9 h-9 shrink-0 rounded-full bg-slate-100 flex justify-center items-center"
         onClick={() => setIsOpenMobileMenu(true)}
       >
-        <FiMenu size={18} />
+        <FiMenu size={19} />
       </button>
 
       <div

@@ -13,7 +13,7 @@ const AddNewRow = () => {
     <div>
       <button
         onClick={() => setIsOpenAddModal(true)}
-        className="fixed bottom-4 right-4 md:bottom-8 md:right-8 w-11 h-11 md:w-14 md:h-14 bg-primary flex justify-center items-center hover:scale-110 hover:bg-primary-dark duration-200 rounded-full text-white z-[99]"
+        className="fixed bottom-4 right-4 md:bottom-8 md:right-8 w-12 h-12 md:w-14 md:h-14 bg-primary flex justify-center items-center hover:scale-110 hover:bg-primary-dark duration-200 rounded-full text-white z-[99]"
       >
         <BiPlus className="w-6 h-6 md:h-8 md:w-8" />
       </button>

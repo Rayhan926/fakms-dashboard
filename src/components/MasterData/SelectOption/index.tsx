@@ -21,7 +21,7 @@ const SelectOption = () => {
   return (
     <div className="w-full">
       <Listbox value={currencies} onChange={handleChange}>
-        <div className="relative">
+        <div className="relative z-50">
           <Listbox.Button className="relative cursor-pointer w-full rounded-lg bg-white py-3 px-4 text-left border border-slate-200">
             <span className="block truncate">{selectedCurrency.label}</span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
